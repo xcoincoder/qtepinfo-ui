@@ -16,7 +16,7 @@
           <td>
             <AddressLink :address="address" />
           </td>
-          <td class="monospace break-word">{{ balance | qtum(8) }} QTUM</td>
+          <td class="monospace break-word">{{ balance | qtep(8) }} QTEP</td>
           <td class="monospace">{{ (balance / totalSupply * 100).toFixed(4) + '%' }}</td>
         </tr>
       </tbody>
@@ -27,7 +27,7 @@
 
 <script>
   import Misc from '@/models/misc'
-  import {RequestError} from '@/services/qtuminfo-api'
+  import {RequestError} from '@/services/qtepinfo-api'
   import {scrollIntoView} from '@/utils/dom'
 
   export default {

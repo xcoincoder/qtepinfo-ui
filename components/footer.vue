@@ -3,31 +3,31 @@
     <div class="container">
       <h3 class="is-size-4 is-uppercase">{{ $t('footer.contact_us') }}</h3>
       <div class="line"></div>
-      <a href="mailto:foundation@qtum.org">foundation@qtum.org</a>
+      <a href="mailto:foundation@qtep.org">foundation@qtep.org</a>
       <ul class="links">
         <li>
-          <a target="_blank" href="https://www.facebook.com/QtumOfficial/">
+          <a target="_blank" href="https://www.facebook.com/QtepOfficial/">
             <Icon icon="facebook" brands /> {{ $t('footer.facebook') }}
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/qtumofficial">
+          <a target="_blank" href="https://twitter.com/qtepofficial">
             <Icon icon="twitter" brands /> {{ $t('footer.twitter') }}
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://forum.qtum.org">
-            <span class="qtum-icon qtum-icon--qtum"></span> {{ $t('footer.forum') }}
+          <a target="_blank" href="https://forum.qtep.org">
+            <span class="qtep-icon qtep-icon--qtep"></span> {{ $t('footer.forum') }}
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/qtumproject/qtum">
+          <a target="_blank" href="https://github.com/xcoincoder/qtep">
             <Icon icon="github" brands /> Github
           </a>
         </li>
       </ul>
       <div class="copyright">
-        2017 - 2019 QTUM CHAIN FOUNDATION &copy; All rights Reserved
+        2017 - 2019 QTEP CHAIN FOUNDATION &copy; All rights Reserved
       </div>
     </div>
   </footer>
@@ -74,7 +74,7 @@
       margin-bottom: 2.5rem;
     }
   }
-  span.fab, span.fas, span.qtum-icon {
+  span.fab, span.fas, span.qtep-icon {
     font-size: 2em;
     vertical-align: middle;
   }
